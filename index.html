@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>(LBV3BP) latihan bootstrap versi 3 bikin portfolio</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <!-- awal css. css nya di sini aja kalo di file yang berbeda mah pusying ah wkwk -->
+    <style>
+      html {
+        position: relative;
+      }
+
+      body {
+        margin-bottom: 120px;
+      }
+
+      .jumbotron img {
+        width: 200px;
+        border: 5px solid #cbc8c8;
+      }
+
+      hr {
+        width: 250px;
+        border-top: 3px solid silver;
+      }
+
+      section {
+        min-height: 600px;
+      }
+
+      .portfolio {
+        background-color: #eee;
+      }
+
+      .contact {
+        min-height: 800px;
+      }
+
+      footer {
+        position: absolute;
+        width: 100%;
+        height: 120px;
+        bottom: 0;
+        background-color: #2b2b2b;
+        padding-top: 30px;
+      }
+
+      footer p {
+        color: white;
+      }
+
+      footer a {
+        color: white;
+        text-decoration: none;
+      }
+    </style>
+    <!-- akhir dari css  -->
+  </head>
+  <body>
+    <!-- awal jumbotron -->
+    <div class="jumbotron text-center">
+      <img src="img/foto formal futuh.jpg" alt="foto icam" class="img-circle" />
+      <h1>Futuh Iqram Multazam</h1>
+      <p>Saya pria yang soleh | baik hati | tidak sombong dan rajin menabung</p>
+    </div>
+    <!-- akhir jumbotron -->
+
+    <!-- awal about -->
+    <section class="about" id="about">
+      <div class="container">
+        <!-- awal row untuk about -->
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">About</h2>
+            <hr />
+          </div>
+        </div>
+        <!-- akhir row untuk about  -->
+
+        <!-- awal row untuk colom -->
+        <div class="row">
+          <div class="col-sm-5 col-sm-offset-1">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe fugit pariatur in omnis veniam. Laboriosam saepe illo incidunt asperiores itaque voluptate ipsam a aspernatur harum, accusamus vero distinctio et molestiae!</p>
+          </div>
+
+          <div class="col-sm-5">
+            <p>
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Nobis consequuntur reiciendis eos dolores repudiandae placeat, iusto sit incidunt rerum ipsum veritatis voluptates tempore earum, magni quas in deleniti dolorem
+              eveniet.
+            </p>
+          </div>
+        </div>
+        <!-- akhir row untuk colom -->
+      </div>
+    </section>
+    <!-- akhir about -->
+
+    <!-- awal portfolio -->
+    <section class="portfolio" id="portfolio">
+      <div class="container">
+        <!-- row untuk portfolio -->
+        <div class="row">
+          <div class="col-sm-12 text-center">
+            <h2>portfolio</h2>
+            <hr />
+          </div>
+        </div>
+        <!-- akhir dari row portfolio -->
+        <div class="row">
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+          <div class="col-sm-4">
+            <a href="#portfolio" class="thumbnail">
+              <img src="img/ayang1.png" alt="" />
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir portfolio -->
+
+    <!-- awal contact -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h2 class="text-center">Contact</h2>
+            <hr />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-8 col-sm-offset-2">
+            <form>
+              <div class="form-group">
+                <label for="nama">Nama</label>
+                <input type="text" id="nama" class="form-control" placeholder="masukan nama" />
+              </div>
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" class="form-control" placeholder="masukan email" />
+              </div>
+              <div class="form-group">
+                <label for="telpon">No Telpon</label>
+                <input type="tel" id="telpon" class="form-control" placeholder="masukan nomor telpon" />
+              </div>
+              <select class="form-control">
+                <option>--pilih kategori--</option>
+                <option>icam</option>
+                <option>fadilah</option>
+              </select>
+              <div class="form-group">
+                <label for="pesan">Pesan</label>
+                <textarea class="form-control" rows="10" placeholder="masukan pesan"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">kirim pesan</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- akhir contact -->
+
+    <!-- awal footer -->
+    <footer>
+      <div class="container text-center">
+        <div class="row">
+          <div class="col-sm-12">
+            <p>&copy; Copyright 2024 | Build by. ❤ <a href="http://instagram.c om/futuh_iqram">Futuh Iqram multazam.</a></p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-sm-12">
+            <a href="http://youtube.com" class="btn btn-danger"><i class="glyphicon glyphicon-play"></i> Subkreb ges channel nya futuh</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- akhir footer -->
+  </body>
+</html>
