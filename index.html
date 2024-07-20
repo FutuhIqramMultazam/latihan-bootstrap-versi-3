@@ -1,10 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" id="icam">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>(LBV3BP) latihan bootstrap versi 3 bikin portfolio</title>
     <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-theme.css" />
 
     <!-- awal css. css nya di sini aja kalo di file yang berbeda mah pusying ah wkwk -->
     <style>
@@ -16,6 +18,9 @@
         margin-bottom: 120px;
       }
 
+      .jumbotron {
+        margin-top: 20px;
+      }
       .jumbotron img {
         width: 200px;
         border: 5px solid #cbc8c8;
@@ -59,11 +64,37 @@
     <!-- akhir dari css  -->
   </head>
   <body>
+    <!-- navbar -->
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a href="#icam" class="navbar-brand">Icam</a>
+        </div>
+        <!-- rigth navbar -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#about">About</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+        <!-- right navbar -->
+      </div>
+    </nav>
+    <!-- akhir navbar -->
+
     <!-- awal jumbotron -->
     <div class="jumbotron text-center">
       <img src="img/foto formal futuh.jpg" alt="foto icam" class="img-circle" />
       <h1>Futuh Iqram Multazam</h1>
-      <p>Saya pria yang soleh | baik hati | tidak sombong dan rajin menabung</p>
+      <p>Saya pria yang pintar | baik hati | tidak sombong dan rajin menabung</p>
     </div>
     <!-- akhir jumbotron -->
 
@@ -201,5 +232,7 @@
       </div>
     </footer>
     <!-- akhir footer -->
+    <script src="js/jquery-3.7.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
   </body>
 </html>
